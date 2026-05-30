@@ -20,6 +20,9 @@ This repository contains the computational notebooks written for Universal Unita
   3. Fixes a specific portion of these redundant variables to simplify the solution space.
   4. Verifies the inclusion relationship: it proves that the first set of constraints can successfully derive the second set of constraints presented in Theorem 2.
 
+### `parallel_encoder_decoder_isometries.ipynb`
+- **Content:** Provides the explicit matrix entries of the parallel encoder and decoder isometries $V_{\mathrm{enc}}$ and $V_{\mathrm{dec}}$.
+
 
 ### `AppendixC_matrices.ipynb`
 - **Purpose:** This notebook details the isometry matrices ($V_1, V_2, V_3, V_4$) and their expanded full unitary matrices (e.g., $U_4$) used for the quantum circuit synthesis in Appendix C.
