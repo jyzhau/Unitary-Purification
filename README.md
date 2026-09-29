@@ -1,22 +1,41 @@
 # Universal Unitary Purification
 
-This repository contains the computational notebooks written for Universal Unitary Purification. It primarily includes the matrices and constraint verifications required for the mathematical proofs in our work.
+Supporting material for *Distilling Qubit Unitary Operations:
+A No-Go Theorem and Minimal Realization*.
 
-## Repository Structure
+## ICO upper bound (v3)
 
-### `tildeGmatrix.ipynb`
-- **Purpose:** Provides the explicit LaTeX code for the non-zero elements of the matrix $\tilde{G}$. 
-- **Content:** To save space in the main manuscript, the massive mathematical expressions of $\tilde{G}$ are omitted from the paper. This file contains the raw LaTeX code, allowing readers to directly copy, paste, and compile the exact matrix used in our proof of **Theorem 1**.
+- [v3_THEOREM2_ICO_PROOF.md](v3_THEOREM2_ICO_PROOF.md):
+  Analytic proof of the 3-slot ICO upper bound in Theorem 2.
 
-### `Gmatrix.ipynb`
-- **Purpose:** This notebook calculates the G matrix used in the CG (Clebsch-Gordan) decomposition for the proof of **Theorem 2**.
-- **Output:** It automatically prints the non-zero elements of the resulting matrix in LaTeX format, making it easy to copy and paste directly into the manuscript.
+- [v3_CERTIFICATE_MATRICES.md](v3_CERTIFICATE_MATRICES.md):
+  Explicit matrices used in the analytic certificate.
 
+- [v3_ICO_S3_constraints.txt](v3_ICO_S3_constraints.txt):
+  The 166 independent affine equalities on the Hermitian block
+  coordinates, obtained from the ICO normalization conditions
+  and $S_3$ symmetry.
 
-### `parallel_encoder_decoder_isometries.ipynb`
-- **Content:** Provides the explicit matrix entries of the parallel encoder and decoder isometries $V_{\mathrm{enc}}$ and $V_{\mathrm{dec}}$.
+- [Gmatrix.ipynb](Gmatrix.ipynb):
+  Construction of the Clebsch–Gordan (CG) transformation $G$
+  used in Theorem 2 (Appendix B).
 
+- [Omega_Tilde_Symbolic_d2_N3.pkl](Omega_Tilde_Symbolic_d2_N3.pkl):
+  Symbolic matrix representation of the 3-slot performance operator
+  in the CG basis.
 
-### `AppendixC_matrices.ipynb`
-- **Purpose:** This notebook details the isometry matrices ($V_1, V_2, V_3, V_4$) and their expanded full unitary matrices (e.g., $U_4$) used for the quantum circuit synthesis in Appendix C.
-- **Content:** The exact, explicit forms of these matrices are provided directly in LaTeX format within the notebook's Markdown cells.
+## Parallel 3-slot strategy and circuit implementation
+
+The parallel strategy attains the upper bound in Theorem 2.
+Its circuit implementation is described in Appendix C.
+
+- [parallel_encoder_decoder_isometries.ipynb](parallel_encoder_decoder_isometries.ipynb):
+  Explicit matrices of the encoder isometry $V_{\mathrm{enc}}$
+  and decoder isometry $V_{\mathrm{dec}}$, including their
+  subsystem ordering.
+
+## Theorem 1
+
+- [tildeGmatrix.ipynb](tildeGmatrix.ipynb):
+  Explicit entries of the Schur-basis transformation $\tilde{G}$
+  used in the 2-slot no-go proof (Appendix A).
