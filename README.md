@@ -50,8 +50,5 @@ Its circuit implementation is described in Appendix C.
 - [summary.csv](figure4/summary.csv):
   Optimal average fidelities and solver diagnostics.
 
-- [per_gate_fidelities.csv](figure4/per_gate_fidelities.csv):
-  Individual fidelities for the six gates under each common optimized strategy.
-
 Run `Figure4` in MATLAB with CVX and QETLAB on the path.
 The plotting section can also run separately using the saved CSV data.
