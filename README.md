@@ -3,7 +3,7 @@
 Supporting material for *Distilling Qubit Unitary Operations:
 A No-Go Theorem and Minimal Realization*.
 
-## ICO upper bound (v3)
+## ICO upper bound
 
 - [AppendixB_ICO_constraints.ipynb](AppendixB/AppendixB_ICO_constraints.ipynb):
   Derivation of the 166 affine constraints and exact verification
