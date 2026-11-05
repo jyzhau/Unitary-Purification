@@ -5,8 +5,9 @@ A No-Go Theorem and Minimal Realization*.
 
 ## ICO upper bound (v3)
 
-- [v3_THEOREM2_ICO_PROOF.md](AppendixB/v3_THEOREM2_ICO_PROOF.md):
-  Analytic proof of the 3-slot ICO upper bound in Theorem 2.
+- [AppendixB_ICO_constraints.ipynb](AppendixB/AppendixB_ICO_constraints.ipynb):
+  Derivation of the 166 affine constraints and exact verification
+  of Eq. (S28) and certificate positivity.
 
 - [Certificates.md](AppendixB/Certificates.md):
   Explicit matrices used in the analytic certificate.
@@ -15,6 +16,9 @@ A No-Go Theorem and Minimal Realization*.
   The 166 independent affine equalities on the Hermitian block
   coordinates, obtained from the ICO normalization conditions
   and $S_3$ symmetry.
+
+- [Gmatrix_exact.npy](AppendixB/Gmatrix_exact.npy):
+  Saved exact CG matrix used by the verification notebook.
 
 - [Gmatrix.ipynb](AppendixB/Gmatrix.ipynb):
   Construction of the Clebsch–Gordan (CG) transformation $G$
