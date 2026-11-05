@@ -8,10 +8,10 @@ A No-Go Theorem and Minimal Realization*.
 - [v3_THEOREM2_ICO_PROOF.md](AppendixB/v3_THEOREM2_ICO_PROOF.md):
   Analytic proof of the 3-slot ICO upper bound in Theorem 2.
 
-- [v3_CERTIFICATE_MATRICES.md](AppendixB/v3_CERTIFICATE_MATRICES.md):
+- [Certificates.md](AppendixB/Certificates.md):
   Explicit matrices used in the analytic certificate.
 
-- [v3_ICO_S3_constraints.txt](AppendixB/v3_ICO_S3_constraints.txt):
+- [ICO_S3_constraints.txt](AppendixB/ICO_S3_constraints.txt):
   The 166 independent affine equalities on the Hermitian block
   coordinates, obtained from the ICO normalization conditions
   and $S_3$ symmetry.
@@ -29,10 +29,12 @@ A No-Go Theorem and Minimal Realization*.
 The parallel strategy attains the upper bound in Theorem 2.
 Its circuit implementation is described in Appendix C.
 
-- [parallel_encoder_decoder_isometries.ipynb](AppendixC/parallel_encoder_decoder_isometries.ipynb):
-  Explicit matrices of the encoder isometry $V_{\mathrm{enc}}$
-  and decoder isometry $V_{\mathrm{dec}}$, including their
-  subsystem ordering.
+- [AppendixC_fidelity.ipynb](AppendixC/AppendixC_fidelity.ipynb):
+  Exact fidelity calculation from the encoder and decoder isometries.
+
+- [AppendixC_circuits.ipynb](AppendixC/AppendixC_circuits.ipynb):
+  Qiskit circuits for Figs. S1 and S2, including isometry extraction
+  and comparison with the reference matrices.
 
 ## Theorem 1
 

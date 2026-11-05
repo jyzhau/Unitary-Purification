@@ -134,12 +134,12 @@ C\succeq0,\\
 ```
 
 Covariance and complete-slot $S_3$ averaging preserve feasibility and the
-objective. [v3_ICO_S3_constraints.txt](v3_ICO_S3_constraints.txt) contains the
+objective. [ICO_S3_constraints.txt](ICO_S3_constraints.txt) contains the
 resulting affine equalities for the blocks $H_k$ in solved form.
 
 ## 3. The displayed matrices are the certificate
 
-[v3_CERTIFICATE_MATRICES.md](v3_CERTIFICATE_MATRICES.md) displays all
+[Certificates.md](Certificates.md) displays all
 $d_k\Omega_k^{(r)}$ and $Q_k^{(r)}$ needed for $r=1,2$. Set
 
 ```math
