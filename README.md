@@ -12,11 +12,6 @@ A No-Go Theorem and Minimal Realization*.
 - [Certificates.md](AppendixB/Certificates.md):
   Explicit matrices used in the analytic certificate.
 
-- [ICO_S3_constraints.txt](AppendixB/ICO_S3_constraints.txt):
-  The 166 independent affine equalities on the Hermitian block
-  coordinates, obtained from the ICO normalization conditions
-  and $S_3$ symmetry.
-
 - [Gmatrix_exact.npy](AppendixB/Gmatrix_exact.npy):
   Saved exact CG matrix used by the verification notebook.
 
