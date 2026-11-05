@@ -40,3 +40,18 @@ Its circuit implementation is described in Appendix C.
 - [tildeGmatrix.ipynb](AppendixA/tildeGmatrix.ipynb):
   Explicit entries of the Schur-basis transformation $\tilde{G}$
   used in the 2-slot no-go proof (Appendix A).
+
+## Figure 4
+
+- [Figure4.m](figure4/Figure4.m):
+  MATLAB code for the finite-gate-set optimization and plot.
+  Requires CVX and QETLAB for the SDP calculation.
+
+- [summary.csv](figure4/summary.csv):
+  Optimal average fidelities and solver diagnostics.
+
+- [per_gate_fidelities.csv](figure4/per_gate_fidelities.csv):
+  Individual fidelities for the six gates under each common optimized strategy.
+
+Run `Figure4` in MATLAB with CVX and QETLAB on the path.
+The plotting section can also run separately using the saved CSV data.
